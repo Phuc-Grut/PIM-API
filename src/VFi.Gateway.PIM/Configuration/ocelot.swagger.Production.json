@@ -1,0 +1,79 @@
+{
+  "SwaggerEndPoints": [
+    {
+      "Key": "core",
+      "TakeServersFromDownstreamService": true,
+      "Config": [
+        {
+          "Name": "core",
+          "Version": "v1",
+          "Service": {
+            "Name": "core",
+            "Path": "/swagger/v1/swagger.json"
+          },
+          "Url": "http://core-api.easternsun.asia:5171/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "master",
+      "TakeServersFromDownstreamService": true,
+      "Config": [
+        {
+          "Name": "master",
+          "Version": "v1",
+          "Service": {
+            "Name": "master",
+            "Path": "/swagger/v1/swagger.json"
+          },
+          "Url": "http://master-api.easternsun.asia:5172/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "hrm",
+      "TakeServersFromDownstreamService": true,
+      "Config": [
+        {
+          "Name": "hrm",
+          "Version": "v1",
+          "Service": {
+            "Name": "hrm",
+            "Path": "/swagger/v1/swagger.json"
+          },
+          "Url": "http://hrm-api.becoxy.com:5005/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "pim",
+      "TakeServersFromDownstreamService": true,
+      "Config": [
+        {
+          "Name": "pim",
+          "Version": "v1",
+          "Service": {
+            "Name": "pim",
+            "Path": "/swagger/v1/swagger.json"
+          },
+          "Url": "http://pim-api.becoxy.com:5007/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "file",
+      "TakeServersFromDownstreamService": true,
+      "Config": [
+        {
+          "Name": "file",
+          "Version": "v1",
+          "Service": {
+            "Name": "file",
+            "Path": "/swagger/v1/swagger.json"
+          },
+          "Url": "http://file-api.local:5023/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ]
+}

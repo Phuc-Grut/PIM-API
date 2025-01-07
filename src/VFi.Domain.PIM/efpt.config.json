@@ -1,0 +1,233 @@
+﻿{
+   "CodeGenerationMode": 2,
+   "ContextClassName": "ES_PIMContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "VFi.Domain.PIM",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+  "Tables": [
+    {
+      "Name": "[dbo].[ProductPackage]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[Category]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[Currency]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[DeliveryTime]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[Group_Category]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[GroupUnit]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[Language]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[LocaleStringResource]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[LocalizedProperty]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[Manufacturer]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[MeasureDimension]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[MeasureWeight]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[Product]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[Product_Category_Mapping]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[Product_GroupCategory_Mapping]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[Product_ProductAttribute_Mapping]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[Product_ProductTag_Mapping]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[Product_SpecificationAttribute_Mapping]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[ProductAttribute]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[ProductAttributeOption]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[ProductBrand]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[ProductInventory]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[ProductMedia]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[ProductOrigin]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[ProductReview]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[ProductReviewHelpfulness]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[ProductServiceAdd]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[ProductStoreMapping]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[ProductTag]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[ProductType]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[ProductVariantAttributeCombination]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[ProductVariantAttributeValue]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[ProductWarehouse]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[RelatedProduct]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[ServiceAdd]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[Shipment]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[ShipmentItem]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[ShippingByTotal]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[ShippingByWeight]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[ShippingMethod]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[SpecificationAttribute]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[SpecificationAttributeOption]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[Store]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[TaxCategory]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[TierPrice]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[Unit]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[Warehouse]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[pim].[CategoryRoot]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dbo].[FUN_CHANGE_PARENT_FULLNAME]",
+      "ObjectType": 2
+    }
+  ],
+   "UiHint": "0157b7401120.ES_PIM",
+   "UncountableWords": null,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false,
+   "UseT4": false
+}

@@ -1,0 +1,14 @@
+﻿using VFi.Domain.PIM.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace VFi.Domain.PIM.Interfaces
+{
+    public partial interface IMasterRepository
+    {
+        Task<IEnumerable<Proxy>> GetList(string? group);
+    }
+}

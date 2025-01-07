@@ -1,0 +1,9 @@
+{
+  "GlobalConfiguration": {
+    "BaseUrl": "https://pim-gw.becoxy.com",
+    "RequestIdKey": "PIMRequestId",
+    "UseServiceDiscovery": true,
+    "AdministrationPath": "/administration"
+  }
+
+}
